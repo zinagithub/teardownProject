@@ -1,0 +1,255 @@
+
+* {
+	margin:0;
+	padding:0;
+}
+body{
+	box-sizing: border-box;
+	width : 100%;
+	height: 5000px;
+}
+header {
+	overflow: hidden;
+	display: grid;
+	grid-template-columns: 20% repeat(6,1fr) ;
+    grid-auto-rows: 150px;
+    background:#d33a2c;
+    color : white;
+    min-height: 5.9em;
+}
+.logo,.articles, .books, .events, .jobs,.membership, .thelast {
+	margin : 1%;
+	background:  #2e2e1f
+}
+
+.thelast button {
+	outline: none;
+	background: #e74c3c;
+	border : 2px solid white; 
+	width : 120px; 
+	padding : 12px;
+	text-align: center;
+	border-radius: 10px;
+	color : #e74c3c;
+	font-size: 20px;
+	margin-top: 45px;
+	margin-left: 20px;
+}
+/*------------------section 1-----------------*/
+.section1 {
+    height: 1000px;
+	display: grid;
+	grid-template-columns:  repeat(2,1fr) ;
+    grid-auto-rows: 500px;
+    grid-row: 2;
+    position : relative;
+
+}
+.divT{
+	position : absolute; 
+	font-size: 35px;
+	display : inline;
+	top: 225px;
+	left :37%;
+    width : 360px;
+    text-align: center
+}
+.divT p{
+	display : inline;
+	background: white;
+	padding :0 10px 0 10px;
+	border-bottom: 2px solid white;
+    color : white;
+}
+.divT p span{
+	left: 50px
+}
+.left1{
+	 background:  #3d3d29;
+    
+}
+.left2{
+	background:  #5c5c3d;
+}
+
+.right1 {
+	 background: #5c5c3d;
+}
+.right2{
+	background:#3d3d29;
+}
+/*------------------section 2-----------------*/
+.section2{
+	width : 100%;
+	height: 450px;
+	background: white;
+
+}
+.art {
+	width : 31%;
+	margin: 1%;
+	float : left;
+	background: #b8b894;
+    height: 350px;
+}
+
+/*------------------section 3-------------*/
+.section3 {
+   
+	display: grid;
+	grid-template-columns:  30% 70% ;
+    grid-auto-rows: 650px;
+    grid-row: 2;
+    grid-gap: 3%;
+
+}
+.sec31{
+	background : gray;
+	height: 300px;
+	margin: 1%;
+}
+.sec32{
+	width : 90%;
+	height: 600px;
+	background:  #2e2e1f;
+	text-align : center;
+	border-radius: 10px;
+}
+
+.sec32 button {
+	font-family: 'Merriweather', serif;
+    outline: none;
+	background: white;
+	border : 2px solid white; 
+	width : 180px; 
+	padding : 12px;
+	text-align: center;
+	border-radius: 10px;
+	color : white;
+	font-size: 16px;	
+	margin-top: 445px;
+
+}
+
+/*----------blue section-----------------*/
+.blueSec{
+	width : 100%;
+	height: 900px;
+	background:  #2e2e1f;
+	text-align : center;
+}
+.blueSec button {
+	font-family: 'Merriweather', serif;
+    outline: none;
+	background: white;
+	border : 2px solid white; 
+	width : 350px; 
+	padding : 18px;
+	text-align: center;
+	border-radius: 10px;
+	color : white;
+	font-size: 16px;
+	margin : 400px auto;	
+}
+
+/*----------section 5-------------------*/
+.section5 {
+    margin-top: 60px; 
+	display: grid;
+	grid-template-columns:  30% 80% ;
+	grid-gap: 2%;
+    grid-auto-rows: 400px;
+}
+.sec51{
+	background : gray;
+	width : 200px;
+	height: 200px;
+	margin : 10%;
+}
+.sec52{
+	width : 80%;
+	background:#b8b894 
+
+}
+
+/*--------------section7-------------------*/
+.section7
+{
+    margin-top: 60px;
+
+	display: grid;
+	grid-template-columns:  70% 30% ;
+    grid-auto-rows: 350px;
+    background:  #6b6b47;
+    
+}
+.sec71{
+	width : 60%;	
+}
+
+.sec72{
+	width : 200px;
+	height: 200px;
+	background: gray
+}
+.sec71 button {
+	font-family: 'Merriweather', serif;
+    outline: none;
+	background: white;
+	border : 2px solid white; 
+	width : 300px; 
+	padding : 12px;
+	text-align: center;
+	border-radius: 10px;
+	color : white;
+	font-size: 16px;
+	margin-left : 50px;	
+	margin-top : 200px;
+}
+/*---------------section8------------------*/
+.section8{
+	width : 100%;
+	height: 400px;
+	background: white;
+
+}
+.sec8 {
+	width : 31%;
+	margin: 1%;
+	float : left;
+	margin-top: 20px;
+	background:  #c2c2a3;
+	height: 250px;
+}
+
+
+/*-------------section 9-----------------------*/
+.section9 {
+   
+	display: grid;
+	grid-template-columns: 33% 79% ;
+    grid-auto-rows: 700px;
+    grid-gap: 1%;
+    grid-row: 2;
+    
+}
+.sec91{
+	background:  #c2c2a3;
+	margin : 0 auto;
+	width: 80%;
+	height: 80%;
+}
+.sec92{
+	width : 80%;
+	background:  #c2c2a3;
+	text-align : center;
+	border-radius: 10px;
+}
+
+/*-----------------footer-----------------------*/
+footer {
+	width : 100%;
+	height: 600px;
+	background :  #4d4d33;
+	margin-top: 30px;
+}
